@@ -1,0 +1,342 @@
+
+
+body{
+    background-color: pink;
+}
+
+.container-fluid {
+    background-color: blue;
+    height: 30px ;
+    padding-bottom: 10px;
+}
+
+.row{
+    width: 100%;
+    
+}
+
+[class*="col-"]{
+    
+    
+    line-height: 2px;
+   
+    font-size: 10px; 
+    padding: 5px;
+    
+    
+}
+
+.scroltxt{
+    color: yellow;
+}
+
+
+
+.srchbtn{
+    
+}
+
+.nav0{
+    background-color:  blue;
+}
+
+
+
+
+.nav1{
+    
+    width: 100%;
+    height: 100px;
+    background-color: chocolate;
+    text-align: center;
+    
+}
+
+#piclogo{
+    
+    height: 100px;
+    background-color: lightgrey ;
+    padding-left: 20px;
+    
+}
+
+
+
+#login{
+    height: 100px;
+    background-color: lightgrey ;
+    padding-left: 40px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+
+
+#signup{
+    height: 100px;
+    background-color: lightgrey ;
+    padding-left: 40px;
+    padding-top: 20px;
+    text-align: center;
+    
+    
+}
+
+[class*="btn btn-outline"]{
+    box-shadow: 7px 7px 5px black;
+}
+
+
+
+    /* search button */
+* {
+  box-sizing: border-box;
+    
+}
+
+
+/* Style the search field */
+form.example input[type=text] {
+    
+  padding: 10px;
+  height: 10px;    
+  font-size: 12px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+
+
+/* Style the submit button */
+form.example button {
+  height: 10px;    
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* search button ends */
+
+
+.nav2{
+    width: 100%;
+    height: 60px;
+    background-color:darkorchid;
+}
+
+.nev2{
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+}
+
+[class*="btn btn-light"]{
+    box-shadow: 7px 7px 5px black;
+}
+
+.slidertext{
+    text-align: center;
+    
+}
+
+.sldr{
+    border-bottom: 30px;
+}
+
+.aftersliderspace{
+    width: 100%;
+    height: 20px;
+}
+
+.nav3{
+    
+     
+    height: 800px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #bc4e9c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+
+#allcards{
+  
+    
+   
+    
+}
+
+.box{
+    background-color: white;
+    padding: 20px;
+    border: 30px;
+    width: 90%;
+    height: 350px;
+    border-right: 40px;
+    text-align: center;
+    -webkit-box-shadow: 9px 9px 19px 5px rgba(87,87,87,1);
+-moz-box-shadow: 9px 9px 19px 5px rgba(87,87,87,1);
+box-shadow: 9px 9px 19px 5px rgba(87,87,87,1);
+    
+}
+
+
+
+.roundbutton{
+    transition: width 1s, height 1s, transform 1s;
+    
+    border-radius: 100% ;
+}
+
+.roundbutton:hover{
+    transform: rotate(360deg);
+}
+
+.nav4{
+    height: 500px;
+    width: 100%;
+    background-color: lightgray;
+    
+}
+.nav4text{
+    padding-left: 30px;
+}
+
+.nav4vdo{
+   float: left;
+    
+}
+
+.nav5{
+    
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    left: 50px;
+    border: solid 5px blue;
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.nav5 button,a{
+    color: white;
+}
+
+.nav5elements{
+
+   text-align: center;
+}
+.implinkbtn{
+    
+    text-align: center;
+    padding: 10px;
+    color: azure;
+    border-left: 60px;
+}
+
+#nav5elem{
+    
+    text-align: center;
+    padding-left: 150px;
+    
+}
+
+.nav6{
+    
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.nav6 a{
+    color: white;
+}
+
+.nav6 a:hover{
+    color: gold;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+      
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: violet;
+  color: white;
+}
+
+.fa-youtube {
+  background: red;
+  color: white;
+}
+
+.fa-twitter {
+  background: blue;
+  color: white;
+}
+
+.myinfo{
+    padding-top: 10px;
+    
+    line-height: 3px;
+}
+
+
+.modal-header{
+    
+    background-color: gold;
+}

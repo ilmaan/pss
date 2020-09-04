@@ -1,0 +1,57 @@
+{% load static %}
+{% static "images" as baseUrl %}
+
+
+<!DOCTYPE html>
+
+<html>
+     <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'styles/bootstrap-4.4.1-dist/css/bootstrap-grid.min.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/bootstrap-4.4.1-dist/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/login.css' %}">
+      
+
+    <title>Login</title>
+     <link rel="icon" type="image/ico" href="{% static 'images/logo.png' %}">
+         
+  </head>
+
+<form action="login" method="post">
+
+
+  {% csrf_token %}
+
+  
+  <div class="imgcontainer">
+    <img src="{% static 'images/logo.png' %}" alt="Avatar" class="avatar">
+  </div>
+  <div class="errormsgs">
+    {% for message in messages %}
+    <h3> {{message}} </h3>
+    {% endfor %}
+  </div>
+  <div class="container">
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+
+    <button type="submit" class="btn btn-success">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember" required> Remember me
+    </label>
+  </div>
+
+  <div class="container" >
+      <label>Create an Account</label>  
+   <a href="signup"> <button type="button" class="btn btn-outline-primary">Sign Up</button> </a>
+    <span class="psw"><a href="#">Forgot password?</a></span>
+  </div>
+</form>
+</html>

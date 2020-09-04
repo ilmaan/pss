@@ -1,0 +1,344 @@
+body{
+    background-color:rgb(197, 197, 197);
+}
+
+.container-fluid {
+    background-color: black;
+    
+    padding-bottom: 10px;
+}
+[class*="col-"]{
+    
+    
+    line-height: 2px;
+   
+    font-size: 13px; 
+    padding-top: 5px;
+    
+}
+
+.delhi{
+    color: white;
+    padding-left: 15px;
+    margin-left: 30px;
+}
+
+.scroltxt{
+
+    color: whitesmoke;
+}
+
+.nav-0{
+    background-color: black;
+    width: 100%;
+    color: white;
+    height:25px ;
+    
+}
+
+.nav-1{
+    background-color: whitesmoke;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.titlee{
+    padding-top: 25px;
+    
+}
+
+.login{
+    
+    padding-top: 50px;
+    
+}
+
+.signup{
+    -webkit-box-shadow: 4px 3px 5px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 3px 5px 5px rgba(0,0,0,0.75);
+    box-shadow: 4px 3px 5px 5px rgba(0,0,0,0.75);
+}
+
+
+
+.row{
+    width: 100%;
+    
+}
+
+.delhi{
+    padding-left: 10px;
+}
+
+.nav2{
+    width: 100%;
+    height: 600px;
+    background-color:yellow;
+}
+
+.nev2{
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+}
+
+[class*="btn btn-light"]{
+    box-shadow: 7px 7px 5px black;
+}
+
+.slidertext{
+    text-align: center;
+    
+}
+
+.sldr{
+    border-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.aftersliderspace{
+    width: 100%;
+    height: 20px;
+}
+
+.nav3{
+    
+     
+    height: 800px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #bc4e9c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+
+.aftersliderspace{
+    width: 100%;
+    height: 20px;
+}
+
+
+
+#allcards{
+    margin-bottom: 5px;
+    
+    
+
+  }
+ 
+ .nav4{
+     text-align: center;
+     align-items: center;
+     margin-bottom: 550px;
+     padding-left: 15px;
+     padding-right: 15px;
+     
+     
+ } 
+
+ .crds{
+     text-align: center;
+     padding-left: 50px;
+     margin-bottom: 50px;
+ }
+ 
+ .firstb{
+     
+ }
+
+.box{
+    background-color: white;
+    padding: 20px;
+    border: 30px;
+    width: 90%;
+    height: 350px;
+    border-right: 40px;
+    text-align: center;
+    overflow: hidden;
+    
+    -webkit-box-shadow: 17px 19px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 17px 19px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 17px 19px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+
+
+.roundbutton{
+    transition: width 1s, height 1s, transform 1s;
+    
+    border-radius: 100% ;
+}
+
+.roundbutton:hover{
+    transform: rotate(360deg);
+
+}
+
+.nav4{
+    height: 300px;
+    width: 100%;
+    
+}
+.nav4text{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.nav4vdo{
+   float: left;
+   left: 0px;
+   padding-top: 10px;
+   overflow: hidden;
+   
+    
+}
+
+.guide{
+    text-align: center;
+    
+    
+
+}
+
+
+
+
+.nav-5{
+    padding-top: 10px;
+    
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.nav5{
+    
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    left: 50px;
+    border: solid 5px blue;
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.nav5 button,a{
+    color: white;
+}
+
+.nav5elements{
+
+   text-align: center;
+}
+/*
+.implinkbtn{
+    
+    text-align: center;
+    padding: 10px;
+    color: azure;
+    border: 10px;
+    float: left;
+}
+
+#nav5elem{
+    
+    text-align: center;
+    padding: 10px;
+    
+}
+*/
+
+.nav-6{
+    text-align: center;
+}
+
+.implinkbtn{
+    float: left;
+    margin: 10px;
+}
+
+.nav6{
+    
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.nav6 a{
+    color: white;
+}
+
+.nav6 a:hover{
+    color: gold;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+      
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: violet;
+  color: white;
+}
+
+.fa-youtube {
+  background: red;
+  color: white;
+}
+
+.fa-twitter {
+  background: blue;
+  color: white;
+}
+
+.myinfo{
+    padding-top: 10px;
+    
+    line-height: 3px;
+}
+
+
+.modal-header{
+    
+    background-color: gold;
+}

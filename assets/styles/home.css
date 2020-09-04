@@ -1,0 +1,94 @@
+body{
+    background-color: blue;
+}
+
+.container-fluid {
+    background-color: white;
+    
+    padding-bottom: 10px;
+}
+[class*="col-"]{
+    
+    
+    line-height: 2px;
+   
+    font-size: 13px; 
+    padding-top: 5px;
+    
+}
+
+.delhi{
+    color: pink;
+}
+
+.scroltxt{
+    color:red;
+}
+
+.nav-0{
+    background-color: whitesmoke;
+    width: 100%;
+    
+}
+
+.nav-1{
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+
+
+.row{
+    width: 100%;
+    
+}
+
+.delhi{
+    padding-left: 50px;
+}
+
+.nav2{
+    width: 100%;
+    height: 600px;
+    background-color:yellow;
+}
+
+.nev2{
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+}
+
+[class*="btn btn-light"]{
+    box-shadow: 7px 7px 5px black;
+}
+
+.slidertext{
+    text-align: center;
+    
+}
+
+.sldr{
+    border-bottom: 30px;
+}
+
+.aftersliderspace{
+    width: 100%;
+    height: 20px;
+}
+
+.nav3{
+    
+     
+    height: 800px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #bc4e9c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
